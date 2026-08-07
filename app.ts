@@ -33,3 +33,13 @@ console.log("working :"+emp[3])
 type student =[number,string,number]
 let stu1 : student=[101,"AA",98]
 let stu2 : student=[102,"BB",88]
+let stu3 : student=[103,"CC",89]
+let students:student[]=[stu1,stu2,stu3]
+console.log(students);
+
+let items:[number,string,number][]=[[101,"laptop",89000],[102,"phone",50000],[103,"bag",3000]]
+for(const item of items){
+    for(const value of item){
+        console.log(value);
+    }
+}

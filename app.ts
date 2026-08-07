@@ -60,15 +60,15 @@ if (typeof data === "number") {
     console.log(data * 2);
 }
 
-function greet(): void {
+function greets(): void {
     console.log("Hello Mounika");
 }
-greet()
+greets()
 
-function add(a: number, b: number): number {
+function adds(a: number, b: number): number {
     return a + b;
 }
-const sum =add(10,37);
+const sum =adds(10,37);
 console.log("sum :"+sum)
  try{
 function throwError(): never {

@@ -37,3 +37,46 @@ for (const item of items) {
         console.log(value);
     }
 }
+let value = "Hello";
+console.log(value);
+value = 100;
+console.log(value);
+value = true;
+console.log(value);
+let data = 100;
+if (typeof data === "number") {
+    console.log(data * 2);
+}
+function greet() {
+    console.log("Hello Mounika");
+}
+greet();
+function add(a, b) {
+    return a + b;
+}
+const sum = add(10, 37);
+console.log("sum :" + sum);
+try {
+    function throwError() {
+        throw new Error("Something went wrong");
+    }
+    throwError();
+}
+catch (err) {
+    console.log(err);
+    console.log("error");
+}
+function infiniteLoop() {
+    while (true) {
+        console.log("Running...");
+    }
+}
+let age = 22;
+// try{
+//     console.log(age)
+//     age="twenty two"
+//     console.log(age);
+// }
+// catch(error){
+//     console.log(error)
+// }
